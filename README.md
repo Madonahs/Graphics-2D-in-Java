@@ -3,7 +3,7 @@
 In this repository we draw a graph using some of the cool libraries for learning purposes.
 
 ## Imports 
-This are must haves for the project
+These are must haves for the project
 ```
 import java.awt.BasicStroke;
 import java.awt.Color;
