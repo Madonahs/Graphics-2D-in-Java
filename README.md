@@ -1,6 +1,23 @@
 # Graphics-2D-in-Java
 
-Just for learning purposes. Drawing a simple Graph with grids using graphics2D Illustration. 
+In this repository we draw a graph using some of the cool libraries for learning purposes.
+
+## Imports 
+This are must haves for the project
+```
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Point;
+import java.awt.RenderingHints;
+import java.awt.Stroke;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
+```
 
 ## Contributing
 
@@ -10,5 +27,7 @@ Read  [Contributing](https://github.com/Madonahs/Graphics-2D-in-Java/blob/master
 
 Please Read [Code of Conduct](https://github.com/Madonahs/Graphics-2D-in-Java/blob/master/CODE_OF_CONDUCT.md)
 
-![1](https://user-images.githubusercontent.com/11560987/54087996-051bbc00-4327-11e9-8953-ac8ab74935b4.PNG)
+## Results
+
+![1](https://user-images.githubusercontent.com/11560987/54088110-3cd73380-4328-11e9-85a4-f45735d6eb9c.PNG)
 
