@@ -19,7 +19,11 @@ import javax.swing.SwingUtilities;
 public class Graph extends JPanel{
 
     
-    private int labelPadding = 12;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private int labelPadding = 12;
     /**change the line color to the best you want;*/
     private Color lineColor = new Color(255,255,254);
     private Color pointColor = new Color(255,0,255 );
@@ -38,12 +42,7 @@ public class Graph extends JPanel{
     public Graph(List<Double> scores) {
         this.scores = scores;
     }
-/*
- * 
- * @see javax.swing.JComponent#paintComponent(java.awt.Graphics)
- creating my graphics2D using the paintComponent class offered by java
- java.awt.Graphics2D;
- */
+
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
