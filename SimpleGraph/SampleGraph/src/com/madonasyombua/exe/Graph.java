@@ -19,11 +19,9 @@ import javax.swing.SwingUtilities;
 public class Graph extends JPanel{
 
     
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	private int labelPadding = 12;
+ 
+    private static final long serialVersionUID = 1L;
+    private int labelPadding = 12;
     /**change the line color to the best you want;*/
     private Color lineColor = new Color(255,255,254);
     private Color pointColor = new Color(255,0,255 );
