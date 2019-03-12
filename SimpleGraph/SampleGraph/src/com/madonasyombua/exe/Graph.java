@@ -105,9 +105,7 @@ public class Graph extends JPanel{
         g2.drawLine(padding + labelPadding, getHeight() - padding - labelPadding, padding + labelPadding, padding);
         g2.drawLine(padding + labelPadding, getHeight() - padding - labelPadding, getWidth() -
         		padding, getHeight() - padding - labelPadding);
-/*
-* 
-*/
+
         Stroke oldStroke = g2.getStroke();
         g2.setColor(lineColor);
         g2.setStroke(GRAPH_STROKE);
@@ -157,10 +155,7 @@ public class Graph extends JPanel{
         }
         return maxScore;
     }
-/*
- *  setting scores
- * 
- */
+/* setting scores */
     public void setScores(List<Double> scores) {
         this.scores = scores;
         invalidate();
